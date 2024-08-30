@@ -51,7 +51,7 @@ function PostProvider({ children }) {
 }
 
 //Custom Hook
-function usePosts() {
+function usePostContext() {
   const context = useContext(PostContext);
   //check if context is undefined(outside scope)
   if (context === undefined)
@@ -59,4 +59,4 @@ function usePosts() {
   return context;
 }
 
-export { PostProvider, usePosts };
+export { PostProvider, usePostContext };

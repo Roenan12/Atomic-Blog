@@ -45,3 +45,5 @@ To start the development server, run:
   ```
 Open http://localhost:3000 to view it in your browser.
 
+## Acknowledgements
+This app was developed as part of the [Udemy course](https://www.udemy.com/course/the-ultimate-react-course/) by Jonas Schmedtmann. Special thanks to Jonas for being an excellent instructor throughout the course.
